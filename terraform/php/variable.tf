@@ -1,13 +1,12 @@
 variable "vpc_cidr1" {
-  type = string
-
-  default = string
+  description = "The CIDR block for the VPC."
+  type        = string
 }
 
 variable "vpc" {
-    type = string
+  description = "Name tag of the VPC"
   #  default = "vpc_jenkins"
-    default = string
+  type        = string
 }
 
 
