@@ -1,13 +1,23 @@
-variable "vpc_cidr1" {
+variable "vpc_cidr" {
   description = "The CIDR block for the VPC."
   type        = string
 }
 
-variable "vpc" {
+variable "vpc_name" {
   description = "Name tag of the VPC"
-  #  default = "vpc_jenkins"
   type        = string
 }
+
+#variable "vpc_cidr1" {
+ # description = "The CIDR block for the VPC."
+ # type        = string
+#}
+
+#variable "vpc" {
+ # description = "Name tag of the VPC"
+  #  default = "vpc_jenkins"
+  #type        = string
+#}
 
 
 variable "cidr_subnet1" {
